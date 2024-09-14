@@ -1,0 +1,85 @@
+body{
+    background: rgb(165, 211, 0);
+}
+.container{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 5px 5px rgb(160, 160, 160);
+    height: 70vh;
+    width: 60vh;
+}
+.logo{
+    flex: 2;
+    display: flex;
+    margin: 1px;
+}
+.bank{
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 40px;
+    margin-left: -60px;
+    color: rgb(1, 142, 207);
+}
+.png{
+    width: 200px;
+    height: 100px;
+    margin-left:60px;
+    margin-top: 10px;
+    /* position: relative; */
+}
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: grey;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 142, 207);
+    font-weight: bold;
+}
+.input{
+    padding-left: 51px;    
+}
+.box{
+    width: 250px;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    background: #ffffffc8;
+    border: 1.5px solid grey;
+}
+.login{
+    background: rgb(69, 69, 249);
+    color: #fff;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+.forget-password{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(4, 130, 208);
+    font-weight: bold;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 130, 208);
+
+}
